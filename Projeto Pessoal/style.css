@@ -1,0 +1,56 @@
+html, body {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+
+div {
+    height: 90px;
+    width: 243px;
+    border: 1px solid;
+    margin: 0px auto;
+    margin-top: 10%;
+    background-color: rgba(15, 10, 10, 0.178);
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.botao {
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: rgba(34, 22, 22, 0.575);
+    border: none;
+    cursor: pointer;
+}
+
+.botao0 {
+    border: 1px solid;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    background-color: rgba(34, 22, 22, 0.575);
+    border-collapse: collapse; 
+}
+
+.botao1 {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+}
+
+.botao:hover {
+    background-color: orchid;
+}
+
+.botao1:hover {
+    background-color: orchid;
+}
+
+.botao0:hover {
+    background-color: orchid;
+}
