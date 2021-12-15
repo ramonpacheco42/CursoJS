@@ -1,7 +1,29 @@
-function n1() {
-    let n1 = document.getElementsByClassName('botao')
-    let n1n = Number(1)
-    let res = document.getElementById('res')
+function num(n1) {
+    let numero = document.getElementById('res').innerHTML;
+    document.getElementById('res').innerHTML = numero + n1;
+}
 
-    res.innerHTML = `${n1n}`
+function clean() {
+    document.getElementById('res').innerHTML = ''
+}
+
+function backspace() {
+    let res = document.getElementById('res').innerHTML;
+    document.getElementById('res').innerHTML = res.substring(0, res.length -1)
+}
+
+function calcular() {
+    let res = document.getElementById('res').innerHTML;
+    if(res) {
+        document.getElementById('res').innerHTML = eval(res)
+    } else {
+        document.getElementById('res').innerHTML = 'ERROR!!!'
+    }
+}
+
+function teste() {
+    let res = document.getElementById('res').innerHTML;
+    if(res.length > 10) {
+        document.getElementById('res').innerHTML = res.substring(0, res.length -1)
+    }
 }

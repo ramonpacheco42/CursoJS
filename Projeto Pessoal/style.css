@@ -1,18 +1,19 @@
 html, body {
     width: 100%;
+    background-color: rosybrown;
 }
 table {
     border-collapse: collapse;
     margin: 0px auto;
 }
 
-div {
+p {
     height: 90px;
     width: 243px;
     border: 1px solid;
     margin: 0px auto;
     margin-top: 10%;
-    background-color: rgba(15, 10, 10, 0.178);
+    background-color: rgba(0, 0, 0, 0.178);
     text-align: center;
     padding-top: 60px;
     font-size: 40px;
@@ -44,13 +45,13 @@ div {
 }
 
 .botao:hover {
-    background-color: orchid;
+    background-color: rgba(0, 0, 0, 0.64);
 }
 
 .botao1:hover {
-    background-color: orchid;
+    background-color: rgba(0, 0, 0, 0.64);
 }
 
 .botao0:hover {
-    background-color: orchid;
+    background-color: rgba(0, 0, 0, 0.64);
 }
